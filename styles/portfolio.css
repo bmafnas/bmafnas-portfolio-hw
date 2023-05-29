@@ -164,12 +164,12 @@ footer .foot-tag {
 .content h1 {
   font-size: 64px;
   line-height: 80px;
-  color: var(--secondary-color);
+  color: var(--branding-color);
 }
 
 .content h4 {
   font-family: var(--default-font-family);
-  color: var(--secondary-color);
+  color: var(--branding-color);
 }
 
 .content p {
@@ -180,8 +180,22 @@ footer .foot-tag {
   margin: 30px;
 }
 
+.content-proj h2 {
+  color: var(--branding-color);
+}
+
+.content-proj h4 {
+  font-family: var(--heading-font-family);
+  font-size: 35px;
+}
+
+.content-proj p {
+  font-size: 14px;
+  line-height: 1.2;
+}
+
 .btn-branding {
-  background: var(--branding-color);
+  background: var(--secondary-color);
   border-radius: 5px;
   color: white;
   font-size: 16px;
@@ -191,7 +205,7 @@ footer .foot-tag {
 
 .btn-branding:hover {
   color: white;
-  background: var(--secondary-color);
+  background: var(--branding-color);
 }
 
 .source-code {
