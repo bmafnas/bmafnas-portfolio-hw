@@ -154,6 +154,7 @@ label {
 
 .hero {
   background: var(--secondary-color);
+  overflow: hidden;
 }
 
 .hero-left {
